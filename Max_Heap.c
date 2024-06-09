@@ -52,3 +52,14 @@ int main() {
 	printArray(arr, n); 
 	return 0;
 }
+/*
+Time Complexity analysis
+    Reccurence Relation: 
+        T(n)=log(n)+log(n-1)+log(n-2)+......+log(1)
+	    =log(n!)
+            =n*log(n)-n+O(log n)
+    Best Case: O(n logn)
+    Worst Case: O(n logn)
+    Average Case: O(n logn)
+*/
+
