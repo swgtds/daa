@@ -30,3 +30,12 @@ int main(void)
     }
     return 0;
 }
+/*
+Time Complexity analysis
+    Best Case: When the array is sorted 
+               T(n) = C*n
+               thus O(n)
+    Worst Case: O(n^2), where the array is in descending order
+                T(n)=C*(n^2)\
+    Average Case: O(n^2), when the array is randomly ordered
+*/
