@@ -52,3 +52,12 @@ int main(){
 	printf("The solution is:%d",knapsack(W,wt,val,n));
 	return 0;
 }
+
+/*
+Time Complexity analysis
+    Reccurence Relation: 
+        T(n)=O(N*W) + O(N*W) + O(N+W)
+	    =O(N*W)
+Thus the time complexity of 0/1 Knapsack problem is O(N*W),
+							   where N is the no. of items and W is the capacity of knapsack
+*/
