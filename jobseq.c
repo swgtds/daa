@@ -73,4 +73,10 @@ int main()
 	jobsequencing(a);
 	return 0;        
 }
+/*
+Time Complexity analysis
+	Worst Case: O(n^2), when we will look for all the slots in the Gnatt Chart
+        Average Case: O(n), as extra space is used in the above implementation
+	Best Case: O(n^2), as n jobs search for m/2 slots
+*/
 
