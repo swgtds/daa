@@ -78,3 +78,13 @@ int main(){
 	return 0;
 	
 }
+
+/*
+Time Complexity analysis
+    Reccurence Relation: 
+        T(n)=O(n) + O(n*log n) + O(n)
+	    =O(n*log n)
+Thus the time complexity of 0/1 Knapsack problem is O(n*log n),
+							   where N is the no. of items 
+*/
+
