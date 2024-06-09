@@ -49,3 +49,11 @@ int main() {
     printf("%d\n", a[i]);
   return 0;
 }
+
+/*
+Time Complexity analysis
+    Best Case: O(n*log n)
+    Worst Case: O(n^2)
+    Average Case: O(n*log n),
+    where n is the no. of elements
+    */
