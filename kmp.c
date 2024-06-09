@@ -54,3 +54,9 @@ int main() {
    KMPAlgorithm(text, pattern);
    return 0;
 }
+/*
+Time Complexity analysis
+	   Time complexity is of O(n),
+      Here n is the length of the text being searched.
+      This linear time complexoty is achieved by utilizing the information from previous comparisons to avoid uncessary backtracking
+*/
