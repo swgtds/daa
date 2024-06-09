@@ -53,3 +53,12 @@ int main() {
     printf("%d\n", a[i]);
   return 0;
 }
+
+/*
+Time Complexity analysis
+    Reccurence Relation: 
+        T(n)= 2T(n/2)+O(n)
+    Best Case: O(n logn)
+    Worst Case: O(n logn)
+    Average Case: O(n logn)
+*/
